@@ -1,0 +1,12 @@
+{
+    // JIKA MENGGUNAKAN INI SAJA MAKA AKAN TERJADI ERROR KETIKA BUILD, KARENA CODE MENGGANDUNG CONSOLE
+    "extends": "tslint:recommended", 
+    "defaultSeverity": "error",
+    "rules": { // TAMBAHAKAN RULE JIKA CONSOLE HANYA WARNING BUKAN ERROR
+        "no-console": {
+        "severity": "warning",
+        "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+        }
+    },
+    "jsRules": {}
+}
